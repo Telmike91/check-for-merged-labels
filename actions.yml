@@ -1,0 +1,12 @@
+name: checkLabel
+description: This Action checks for given label and returns true or false
+inputs:
+  checkedLabel:
+    description: The label that is being checked
+    required: true
+outputs:
+  isContained:
+    description: A boolean value that can be used to check if given label was contained in the merged PR
+runs:
+  using: "node20"
+  main: "dist/index.js"
