@@ -2,10 +2,11 @@
   "name": "check-for-merged-labels",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Telmike91/check-for-merged-labels.git"
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Telmike91/check-for-merged-labels/issues"
   },
-  "homepage": "https://github.com/Telmike91/check-for-merged-labels#readme"
+  "homepage": "https://github.com/Telmike91/check-for-merged-labels#readme",
+  "dependencies": {
+    "@types/node": "^22.15.17",
+    "octokit": "^4.1.3"
+  }
 }
