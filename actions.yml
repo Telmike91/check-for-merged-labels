@@ -9,4 +9,4 @@ outputs:
     description: A boolean value that can be used to check if given label was contained in the merged PR
 runs:
   using: "node20"
-  main: "index.js"
+  main: "dist/index.js"
