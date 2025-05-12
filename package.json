@@ -1,0 +1,19 @@
+{
+  "name": "check-for-merged-labels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Telmike91/check-for-merged-labels.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Telmike91/check-for-merged-labels/issues"
+  },
+  "homepage": "https://github.com/Telmike91/check-for-merged-labels#readme"
+}
