@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Telmike91/check-for-merged-labels#readme",
   "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1",
     "@types/node": "^22.15.17",
     "octokit": "^4.1.3"
   }
